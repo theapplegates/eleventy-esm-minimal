@@ -66,6 +66,20 @@
   shape-margin: 0.75rem;
 }
 
+.small-image {
+  width: 50%; /* Adjust the percentage as needed */
+  max-width: 600px; /* Optional: set a maximum width */
+  height: auto; /* Maintain aspect ratio */
+}
+.centered-image {
+  display: block;      /* Make the image a block element */
+  margin-left: auto;   /* Center the image horizontally */
+  margin-right: auto;  /* Center the image horizontally */
+  width: 50%;          /* Adjust the width as needed */
+  max-width: 600px;    /* Optional: set a maximum width */
+  height: auto;        /* Maintain aspect ratio */
+}
+
 /* Button styles */
 :where(button) {
   all: unset;
